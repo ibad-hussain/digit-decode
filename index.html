@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digit Decode | Guess the Secret Code</title>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="logo.png" alt="">
+    </nav>
+
+    <div class="container">
+        <div class="timer-box">
+            <div class="timer">8</div>
+        </div>
+
+        <div class="heading">Guess the Secret Code</div>
+
+        <div class="numbers">
+            <button id="btn-1">1</button>
+            <button id="btn-2">2</button>
+            <button id="btn-3">3</button>
+            <button id="btn-4">4</button>
+            <button id="btn-5">5</button>
+            <button id="btn-6">6</button>
+        </div>
+
+        <div class="guess-box">
+            <div class="guess-text">Your Guess : </div>
+        </div>
+
+        <div class="submit">
+            <button id="submit-btn">Submit Guess</button>
+        </div>
+
+        <div class="score-box">
+            <div class="score-text">Your Score : </div>
+            <button id="play-again-btn">Play Again</button>
+            <div class="score-pegs">
+                <div class="black">◼</div>
+                <div class="white">◼</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-rule-box">
+        <div class="rule-box">
+            <div class="rule-heading">Rules</div>
+            <div class="rules">
+                <ul>
+                    <li>Guess the 4-digit secret code.</li>
+                    <li>Each number is between 1 and 6.</li>
+                    <li>All digits in the code are unique - no repeats allowed.</li>
+                    <li>After each guess, you'll get feedback :
+                        <ul>
+                            <li>Black Peg : Correct number, correct position.</li>
+                            <li>White Peg : Correct number, wrong position.</li>
+                        </ul>
+                    </li>
+                    <li>A perfect score of 4 black pegs wins the game!</li>
+                    <li>Resubmit your guess after reviewing the feedback.</li>
+                    <li>Keep track of your guesses and enjoy cracking the code!</li>
+                </ul>
+            </div>
+            <div class="rule-btn-box">
+                <button id="start">Start</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
