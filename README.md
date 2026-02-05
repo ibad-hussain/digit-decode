@@ -1,7 +1,9 @@
-# Netflix UI Clone
+# Digit Decode - Guess The Secret Code
 ## 🚀 Overview
 Digit Decode is a fun and interactive browser-based puzzle game inspired by classic code-breaking games like Mastermind. The objective is simple but challenging: guess a 4-digit secret code within multiple attempts using logical deduction.
+<br>
 Each digit ranges from 1 to 6, and no digit repeats in the secret code. After every guess, the game provides smart feedback using Black Pegs and White Pegs, helping the player refine their next attempt.
+<br>
 The project is built entirely with vanilla HTML, CSS, and JavaScript, focusing on clean UI, smooth animations, and clear game logic. It is lightweight, beginner-friendly, and runs directly in the browser without any external dependencies.
 
 <br>
